@@ -4,7 +4,7 @@ import './Header.css';
 const Header = ({curPg, onPgChoice}) => {
   return(
     <div class="Header">
-        <div class="name">Ashley Alexander-Lee</div>
+        <div class="name"><div>Ashley Alexander-Lee</div></div>
         <div class="menu">
           <div class="menu-item" onClick={onPgChoice} id="home">Home</div>
           <div class="menu-item" onClick={onPgChoice} id="resume">Resume</div>

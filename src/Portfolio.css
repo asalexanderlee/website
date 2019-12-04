@@ -7,3 +7,18 @@
   width:90%;
   margin: 0 auto;
 }
+
+.portfolio-item{
+  border-top:1px solid lightgrey;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.portfolio-item .description{
+  width:calc(90% - 20px);
+  margin:0 auto;
+  text-align:left;
+  background-color:white;
+  padding:10px;
+  padding-top:20px;
+}

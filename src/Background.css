@@ -1,0 +1,8 @@
+.Background{
+  position:fixed;
+  left:10%;
+  height:100%;
+  width:40%;
+  overflow:hidden;
+  z-index:-20;
+}
