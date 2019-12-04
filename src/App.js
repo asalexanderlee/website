@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Header from './Header.js';
+import Home from './Home.js';
+import Portfolio from './Portfolio.js';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +15,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header curPg={this.state.curPg} onPgChoice={this.onPgChoice} />
+        {this.state.curPg == "home" && <Home />}
+        {this.state.curPg == "portfolio" && <Portfolio />}
       </div>
     );
   }
